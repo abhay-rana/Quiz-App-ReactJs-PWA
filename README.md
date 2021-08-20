@@ -1,3 +1,9 @@
+This Quiz App is made with REACTJS for frontend,
+and Backend Database is Firebase .
+this App has amazing UI and a great user experience this app is completely responsive and also uses PWA(progressive web app) so it works as a crossplatform app
+
+You can visit this App From ==> https://jovial-mirzakhani-bea0db.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
