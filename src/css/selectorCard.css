@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root_card {
+    width: 90.5vw;
+    height: auto;
+    background-color: white;
+    border-radius: 0.5vh;
+    padding: 1vh;
+    overflow: hidden;
+    margin: 1vh;
+    box-shadow: 0px 1px 4px 1px;
+}
+
+.upper_side {
+    width: 100%;
+    height: auto;
+}
+
+.upper_side img {
+    width: 50%;
+    height: auto;
+    margin-top: 1vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 1px black;
+    background-color: wheat;
+}
+
+.lower_side {
+    width: 100%;
+    height: auto;
+    margin-top: 1vh;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+.lower_side h3 {
+    width: 100%;
+}
+
+.lower_side p {
+    width: 95%;
+    height: auto;
+    padding: 1vh;
+}
+
+.lower_side button {
+    width: 40%;
+    height: auto;
+    border: none;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 2.4vh;
+    letter-spacing: 1.4px;
+    box-shadow: 0px 1px 4px 1px black;
+    background-color: rgb(8, 123, 255);
+    color: white;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.lower_side button:hover {
+    color: black;
+    background-color: wheat;
+}
+
+@media screen and (min-width: 1020px) {
+    .root_card {
+        width: 20%;
+        height: auto;
+        background-color: white;
+        border-radius: 0.5vh;
+        padding: 2vh;
+        padding-bottom: 1vh;
+        overflow: hidden;
+        margin: 1vh;
+        box-shadow: 0px 0.5px 2px 0.5px;
+    }
+    .lower_side p {
+        width: 95%;
+        height: auto;
+        padding: 1vh;
+    }
+    .lower_side button {
+        width: 40%;
+        height: auto;
+        border: none;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 2.4vh;
+        letter-spacing: 1.4px;
+        box-shadow: 0px 1px 4px 1px black;
+        background-color: rgb(8, 123, 255);
+        color: white;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+}

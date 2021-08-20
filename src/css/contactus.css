@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutMe_Section {
+    width: 100vw;
+    height: auto;
+}
+
+.aboutMe_Section p {
+    font-size: 2.5vh;
+    padding: 1vh;
+}
+
+.contact_form_outter {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+.contact_form {
+    width: 95%;
+    height: auto;
+    padding-right: 10vh;
+    margin-left: 1vh;
+    color: black;
+}
+
+@media screen and (min-width: 1020px) {
+    .root {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        color: white;
+        font-family: "'Style Script', cursive";
+        background-image: linear-gradient(120deg, rgb(69, 59, 204), rgb(255, 61, 103));
+    }
+    .aboutMe_Section {
+        width: 60%;
+        height: auto;
+        margin-top: 24vh;
+    }
+    .aboutMe_Section p {
+        font-size: 2.8vh;
+        padding: 1vh;
+        padding-left: 2vh;
+    }
+    .contact_form_outter {
+        width: 50%;
+        height: auto;
+        margin-left: 6vh;
+        background-color: white;
+    }
+    .contact_form {
+        width: auto;
+        height: auto;
+        padding-right: 10vh;
+        margin-left: 6vh;
+    }
+}

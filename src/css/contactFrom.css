@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 2vh;
+    text-align: left;
+}
+
+.contact_form {
+    width: 92%;
+    height: auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.contact_form input {
+    width: 92%;
+    height: 5vh;
+    margin-top: 5px;
+    padding-left: 1vh;
+}
+
+.contact_form textarea {
+    width: 90.6%;
+    height: 30vh;
+    margin-top: 1vh;
+    padding: 1vh;
+}
+
+label {
+    margin-left: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.err {
+    color: red;
+    font-style: italic;
+    font-size: "1vh";
+    margin-top: "1vh";
+}
+
+.btn_send {
+    width: 50%;
+    height: auto;
+    font-size: 4.5vh;
+    background-color: rgb(8, 123, 255);
+    color: white;
+    border: none;
+    margin-left: 12vh;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.btn_send:hover {
+    background-color: wheat;
+    color: black;
+}
+
+@media screen and (min-width:1020px) {
+    form {
+        width: 100%;
+        height: auto;
+        padding: 2vh;
+        text-align: left;
+        color: black;
+    }
+    .btn_send {
+        width: 40%;
+        height: auto;
+        font-size: 3.5vh;
+        background-color: rgb(8, 123, 255);
+        color: white;
+        border: none;
+        padding: 0.5vh;
+        margin-left: 16vh;
+        text-align: center;
+    }
+    .btn_send:hover {
+        background-color: wheat;
+        color: black;
+    }
+    .contact_form textarea {
+        width: 90.6%;
+        height: 30vh;
+        margin-top: 1vh;
+        padding: 1vh;
+    }
+    .err {
+        color: red;
+        font-style: italic;
+        font-size: "1vh";
+        margin-top: "1vh";
+    }
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.header_section {
+    width: 100vw;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.header_section h2 {
+    width: 100vw;
+    height: auto;
+    padding-bottom: 1vh;
+}
+
+/* coundown timer */
+
+.Counter_div {
+    margin-top: 14vh;
+    margin-bottom: 6vh;
+}
+
+.Counter_div p {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.Options_Answer {
+    width: 100%;
+    height: auto;
+    margin-top: 4vh;
+}
+
+.label_radio_btn {
+    width: 100%;
+    height: auto;
+}
+
+.options_inner_div {
+    display: block;
+    justify-content: center;
+}
+
+.root_option {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.option_design {
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    justify-content: left;
+}
+
+.option_design input {
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.option_design label {
+    width: 80%;
+    height: auto;
+    font-size: 3.2vh;
+    text-align: left;
+}
+
+.Quiz_Section h2 {
+    display: none;
+}
+
+.next_btn {
+    width: 40vw;
+    height: auto;
+    border: none;
+    padding: 1vh;
+    font-size: 3vh;
+    margin-top: 4vh;
+    color: white;
+    background-color: rgb(8, 123, 255);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.next_btn:hover {
+    color: black;
+    background-color: wheat;
+}
+
+@media screen and (min-width:1020px) {
+    .header_section {
+        width: 100vw;
+        height: auto;
+        display: none;
+    }
+    .Quiz_Section {
+        width: 100vw;
+        height: auto;
+        color: black;
+        background-color: white;
+    }
+    .Quiz_Section h2 {
+        width: 100vw;
+        height: auto;
+        display: block;
+        background-color: blanchedalmond;
+    }
+    .next_btn {
+        width: 10vw;
+        height: auto;
+        border: none;
+        padding: 1vh;
+        font-size: 3vh;
+        margin-top: 4vh;
+        color: white;
+        background-color: rgb(8, 123, 255);
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        ;
+    }
+}
